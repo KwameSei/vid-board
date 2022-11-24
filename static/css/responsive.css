@@ -1,0 +1,27 @@
+@media (max-width: 900px){
+    /* Hiding the menu icon and sidebar */
+    .menu-icon, .sidebar, .mic-icon{
+        display: none;
+    }
+    /* Closing up the space created */
+    .container, .expand-container{
+        margin: 0 5px;
+    }
+    /* Hiding the navigation icons */
+    .nav-right img{
+        display: none;
+    }
+    /* Displaying the user profile image */
+    .nav-right .display-image{
+        display: block;
+        width: 30px;
+    }
+    /* Decreasing the width of the search panel */
+    .nav-middle .search input{
+        width: 100px;
+    }
+    /* Decreasing the size of the logo */
+    .logo-icon{
+        height: 40px;
+    }
+}
