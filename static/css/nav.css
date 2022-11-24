@@ -7,7 +7,7 @@
     padding: 10px 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background: #ffffff;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
